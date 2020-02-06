@@ -9,6 +9,18 @@ body {
 img {
     max-width: 100%;
 }
+.blue {
+    background-color: #376DE4;
+}
+.pink {
+    background-color: #FD5282;
+}
+.green {
+    background-color: #3BDD9A;
+}
+.lightblue {
+    background-color: #82C3F5;
+}
 .container {
     width: 100%;
     max-width: 1170px;
@@ -29,7 +41,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 40px 0;
     span {
         display: block;
         width: 200px;
@@ -59,7 +71,7 @@ img {
 .row {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    
 }
 
 .navigation {
@@ -137,7 +149,7 @@ img {
     color: white;
     .comment {
         margin:10px 0;
-    }
+            }
     .img-name-holder {
         display: flex;
         flex-direction: row;
@@ -158,3 +170,87 @@ img {
     }
 }
 
+
+.get-in-touch {
+    padding: 70px 0;
+    .house {
+        padding: 0px;
+    }
+    iframe {
+        width:100%;
+    }
+   
+    
+}
+
+.info-card {
+    text-align: center;
+    width: 25%;
+    max-height: 250px;
+    padding: 40px;
+    color: white;
+    i {
+        color: white;
+        font-size: 24px;
+    }
+    .card-content-holder {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+            
+    }
+    .card-heading {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+}
+.mail-us {
+    padding: 70px 0;
+    .form {
+        width: 100%;
+    }
+    .input-holder {
+        display: flex;
+        justify-content: space-between;
+        .input {
+        width:32%;
+        height: 40px;
+        padding: 0 10px;
+      }
+    }
+    .textarea{
+        margin: 20px 0;
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+    }
+    .button-submit {
+        width: 10%;
+        max-width: 130px;
+        height: 40px;
+        background-color: #FD961A;
+        color: white;
+        border: none;
+    }
+
+    
+}
+.footer {
+    background-color: #212121;
+    color: white;
+    .footer-nav {
+        margin: 0 auto;
+        padding: 20px 0;
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        list-style-type: none;
+    }
+    p {
+        text-align: center;
+        padding: 20px 0;
+    }
+}
