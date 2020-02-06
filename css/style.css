@@ -1,3 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.main {
+  margin-top: -113.5px;
+}
+
+.decoration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.decoration span {
+  display: block;
+  width: 200px;
+  background-color: black;
+  height: 2px;
+  margin: 20px;
+}
+
+.cube {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  transform: rotate(45deg);
+}
+
+.button {
+  border-radius: 30px;
+  padding: 5px 30px;
+  background-color: #1C70B1;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.navigation ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navigation ul li {
+  padding: 5px;
+}
+.navigation ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner-section {
+  background-image: url(/img/banner3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.banner-section .main-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  color: white;
+}
+.banner-section img {
+  visibility: hidden;
+}
+
+.who-we-are {
+  padding: 70px 0;
+}
+.who-we-are .article {
+  width: 35%;
+  padding: 0 20px;
+}
+.who-we-are .article h2 {
+  color: #6CB1E5;
+  text-align: center;
+  font-size: 25px;
+}
+.who-we-are .article p {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+.who-we-are .article-list {
+  list-style-position: inside;
+  list-style-image: url("/img/arrow_bullet (1).png");
+  font-size: 20px;
+}
+
+.people-say {
+  padding: 70px 0;
+}
+.people-say .row {
+  justify-content: space-between;
+}
+
+.say-article {
+  width: 32%;
+  padding: 20px;
+  background-color: #82C3F5;
+  color: white;
+}
+.say-article .comment {
+  margin: 10px 0;
+}
+.say-article .img-name-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.say-article .img-name-holder h3 {
+  color: black;
+}
+.say-article .img-name-holder .checked {
+  color: white;
+}
+.say-article .img-name-holder img {
+  width: 20%;
+  border-radius: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
