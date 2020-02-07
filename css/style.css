@@ -46,6 +46,25 @@ img {
   margin-top: -113.5px;
 }
 
+.hamburger {
+  width: 40px;
+  height: 40px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.hamburger span {
+  display: block;
+  width: 35px;
+  height: 2px;
+  background-color: #fff;
+}
+.hamburger span:nth-of-type(2) {
+  margin: 5px 0;
+}
+
 .decoration {
   display: flex;
   align-items: center;
@@ -256,6 +275,81 @@ img {
 .footer p {
   text-align: center;
   padding: 20px 0;
+}
+
+@media (max-width: 420px) {
+  .navigation {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .banner-section {
+    min-height: 50vh;
+  }
+  .banner-section .main-heading {
+    font-size: 19px;
+    top: 25%;
+  }
+  .banner-section .main-heading h1 {
+    margin-bottom: 20px;
+  }
+
+  .section-heading {
+    font-size: 30px;
+  }
+
+  .cube {
+    width: 60px;
+  }
+
+  .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .who-we-are .article {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .people-say .say-article {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .get-in-touch .info-card {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+  }
+  .get-in-touch .info-card .card-heading {
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .get-in-touch iframe {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .mail-us .button-submit {
+    width: 30%;
+  }
+  .mail-us .input-holder {
+    flex-wrap: wrap;
+  }
+  .mail-us .input-holder .input {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .footer .footer-nav {
+    width: 95%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
