@@ -227,6 +227,7 @@ img {
 .info-card .card-heading {
   font-size: 30px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .mail-us {
@@ -322,6 +323,9 @@ img {
     margin-top: 40px;
   }
 
+  .get-in-touch i {
+    font-size: 35px;
+  }
   .get-in-touch .info-card {
     width: 100%;
     height: 250px;
@@ -349,6 +353,72 @@ img {
 
   .footer .footer-nav {
     width: 95%;
+  }
+}
+@media (min-width: 421px) and (max-width: 768px) {
+  .section-heading {
+    font-size: 32px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .banner-section {
+    min-height: 50vh;
+  }
+  .banner-section .main-heading {
+    font-size: 19px;
+    top: 25%;
+  }
+  .banner-section .main-heading h1 {
+    margin-bottom: 20px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .who-we-are .article {
+    width: 50%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .who-we-are .article p {
+    font-size: 18px;
+  }
+  .who-we-are .article ul {
+    font-size: 18px;
+  }
+
+  .people-say .say-article {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+
+  .get-in-touch i {
+    font-size: 30px;
+  }
+  .get-in-touch .info-card {
+    width: 50%;
+    height: 256px;
+  }
+
+  .mail-us .button-submit {
+    width: 30%;
+  }
+  .mail-us .input-holder {
+    flex-wrap: wrap;
+  }
+  .mail-us .input-holder .input {
+    margin: 10px 0;
+    width: 100%;
   }
 }
 
